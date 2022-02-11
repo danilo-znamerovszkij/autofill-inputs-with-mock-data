@@ -1,0 +1,24 @@
+
+    {
+    "name": "Set Inputs with Mock Data",
+    "description": "Set Inputs with Mock Data to test your web pages locally faster",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "action": {
+    "default_title": "Set All Inputs",
+    "default_icon": "assets/logo.png"
+    },
+   
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "all_frames": true,
+          "run_at": "document_idle",
+          "js": ["utils/mock.js","index.js"]
+        }
+      ]
+
+}
