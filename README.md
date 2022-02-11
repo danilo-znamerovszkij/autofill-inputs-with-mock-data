@@ -1,3 +1,3 @@
-# set all inputs - pure vanilla js extension to fill all inputs in the DOM
+# Script to set all inputs with mock data
 
-Set All Inputs - with mock data 
+Chrome extension to set all inputs with mock data
